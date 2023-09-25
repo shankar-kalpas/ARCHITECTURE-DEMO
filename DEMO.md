@@ -46,7 +46,9 @@ In this document, we'll provide an overview of the recommended system architectu
      |                    | (WordPress)|
      |                    +-----------+
 
-     plaintext```
+```plaintext
+
+
 ## Backup Provisions (Simplified)
 
 1. **Regular Backups**
