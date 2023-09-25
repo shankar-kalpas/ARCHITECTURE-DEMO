@@ -78,4 +78,28 @@ Here are rough estimates for AWS services used in the architecture:
 - Define a comprehensive testing process that covers unit testing, integration testing, load testing, and security testing.
 - Utilize tools and services like Jest, Mocha, Postman, and JMeter based on your specific needs and codebase size.
 
+# Simplified Load Testing Tools
+
+Below is a list of load testing tools along with brief descriptions and pricing information:
+
+1. **Apache JMeter**
+   - *Description*: Open-source load testing tool for performance and functional testing.
+   - *Pricing*: Free and open-source.
+
+2. **Locust**
+   - *Description*: Open-source Python-based load testing tool with code-based test scenarios.
+   - *Pricing*: Free and open-source.
+
+3. **Gatling**
+   - *Description*: Open-source and scriptable load testing tool in Scala.
+   - *Pricing*: Free and open-source.
+
+4. **k6**
+   - *Description*: Open-source load testing tool scriptable in JavaScript.
+   - *Pricing*: Offers free and paid plans. Pricing details can be found on their [Pricing page](https://k6.io/pricing).
+
+5. **Loader.io**
+   - *Description*: Cloud-based load testing platform with free and paid plans.
+   - *Pricing*: Pricing details available on the [Loader.io Pricing page](https://loader.io/pricing).
+
 
