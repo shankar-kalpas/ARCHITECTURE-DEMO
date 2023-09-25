@@ -9,18 +9,18 @@ Here are rough estimates for AWS services used in the architecture:
 ## Application Components
 
 ### Frontend
-- The frontend is hosted on AWS Elastic Beanstalk, which may cost around $X per month for hosting.
+- The frontend is hosted on AWS Elastic Beanstalk, There is no additional charge for AWS Elastic Beanstalk. You only pay for what you use, as you use it.
   - Pricing details: [Elastic Beanstalk Pricing](https://aws.amazon.com/elasticbeanstalk/pricing/)
 
 ### Backend
-- The backend runs on Amazon EC2 instances, with the cost depending on the instance type and usage. 
+- The backend runs on Amazon EC2 instances, with the cost depending on the instance type and usage Avg: $16. 
   - Pricing details: [EC2 Pricing](https://aws.amazon.com/ec2/pricing/)
 
 ### Admin Dashboard
 - The admin dashboard is hosted on Elastic Beanstalk, with similar costs to the frontend.
 
 ### WordPress
-- Your WordPress instance on EC2 might cost around $Y per month, but it varies based on instance type and usage.
+- Your WordPress instance on EC2 might cost around $12 per month, but it varies based on instance type and usage.
   - Pricing details: [EC2 Pricing](https://aws.amazon.com/ec2/pricing/)
 
 ### Containers
