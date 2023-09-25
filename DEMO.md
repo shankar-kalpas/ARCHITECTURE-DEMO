@@ -24,6 +24,7 @@ In this document, we'll provide an overview of the recommended system architectu
 
 ## AWS Architecture Diagram (Simplified)
 
+
 ```plaintext
 +----------------+       +----------------+        +----------------+
 |   Elastic      | ----> |   Amazon RDS   |        |   EC2 (Node.js |
@@ -46,10 +47,7 @@ In this document, we'll provide an overview of the recommended system architectu
      |                    | (WordPress)|
      |                    +-----------+
 
-```plaintext
-
-
-## Backup Provisions (Simplified)
+```
 
 1. **Regular Backups**
    - Utilize AWS RDS automated backups for the MySQL database.
