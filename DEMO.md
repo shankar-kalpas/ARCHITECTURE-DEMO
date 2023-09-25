@@ -2,25 +2,29 @@
 
 In this document, we'll provide an overview of the recommended system architecture for your applications, considering scalability, security, and performance considerations.
 
+# AWS Service Pricing (Estimates)
+
+Here are rough estimates for AWS services used in the architecture:
+
 ## Application Components
 
 ### Frontend
-- The frontend of your application is built using Next.js.
-- It is hosted on AWS Elastic Beanstalk for scalability and easy deployment.
+- The frontend is hosted on AWS Elastic Beanstalk, which may cost around $X per month for hosting.
+  - Pricing details: [Elastic Beanstalk Pricing](https://aws.amazon.com/elasticbeanstalk/pricing/)
 
 ### Backend
-- The backend is implemented using Node.js.
-- It runs on Amazon EC2 instances for better control over a large codebase.
+- The backend runs on Amazon EC2 instances, with the cost depending on the instance type and usage. 
+  - Pricing details: [EC2 Pricing](https://aws.amazon.com/ec2/pricing/)
 
 ### Admin Dashboard
-- The admin dashboard is hosted alongside the frontend, either within the same Elastic Beanstalk environment or as a separate service, depending on your security requirements.
+- The admin dashboard is hosted on Elastic Beanstalk, with similar costs to the frontend.
 
 ### WordPress
-- You have a WordPress instance running on an Amazon EC2 instance.
-- Regular backups and security updates are essential for maintaining WordPress.
+- Your WordPress instance on EC2 might cost around $Y per month, but it varies based on instance type and usage.
+  - Pricing details: [EC2 Pricing](https://aws.amazon.com/ec2/pricing/)
 
 ### Containers
-- Docker containers are used for hosting self-hosted email and SMS service providers.
+- Docker container costs are associated with the EC2 instances they run on.
 
 ## AWS Architecture Diagram (Simplified)
 
@@ -70,3 +74,5 @@ In this document, we'll provide an overview of the recommended system architectu
 
 - Define a comprehensive testing process that covers unit testing, integration testing, load testing, and security testing.
 - Utilize tools and services like Jest, Mocha, Postman, and JMeter based on your specific needs and codebase size.
+
+
