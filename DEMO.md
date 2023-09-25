@@ -9,11 +9,11 @@ Here are rough estimates for AWS services used in the architecture:
 ## Application Components
 
 ### Frontend
-- The frontend is hosted on AWS Elastic Beanstalk, There is no additional charge for AWS Elastic Beanstalk. You only pay for what you use, as you use it.
+- The frontend is hosted on AWS Elastic Beanstalk, There is no additional charge for AWS Elastic Beanstalk. Avg: $15 per month. You only pay for what you use, as you use it.
   - Pricing details: [Elastic Beanstalk Pricing](https://aws.amazon.com/elasticbeanstalk/pricing/)
 
 ### Backend
-- The backend runs on Amazon EC2 instances, with the cost depending on the instance type and usage Avg: $16. 
+- The backend runs on Amazon EC2 instances, with the cost depending on the instance type and usage Avg: $16 per month. 
   - Pricing details: [EC2 Pricing](https://aws.amazon.com/ec2/pricing/)
 
 ### Admin Dashboard
