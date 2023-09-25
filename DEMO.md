@@ -23,6 +23,9 @@ Here are rough estimates for AWS services used in the architecture:
 - Your WordPress instance on EC2 might cost around $12 per month, but it varies based on instance type and usage.
   - Pricing details: [EC2 Pricing](https://aws.amazon.com/ec2/pricing/)
 
+### DataBase
+- AWS RDS automated backups for the MySQL database cost around $25  per month, or we can use the seperate EC2 for the data base which cost $12  per month,.
+
 ### Containers
 - Docker container costs are associated with the EC2 instances they run on.
 
