@@ -1,9 +1,9 @@
 # Load Testing Update: [06-11-2023]
 
 
-I hope this update finds you well. I wanted to provide a brief overview of the progress and activities related to the ongoing load testing of our dev website. Below are the points I'm testing currently:
+I wanted to provide a brief overview of the progress and activities related to the ongoing load testing of our dev website. Below are the points I'm testing currently:
 
-## User Registration:
+## User Registration: 
 
 - Successfully simulated a large number of users registering simultaneously.
 - Observed response time and throughput metrics to assess the efficiency of the registration process.
@@ -36,4 +36,7 @@ I hope this update finds you well. I wanted to provide a brief overview of the p
 
 - Currently running continuous load tests over an extended period to identify any issues such as memory leaks or database connection issues.
 
+## Estimated Time
+- [User Registration,Login Functionality,Browse Courses] by 4pm
+- [Video Streaming ] we need to write a custome code will provide update as soon as the above set completes
 
